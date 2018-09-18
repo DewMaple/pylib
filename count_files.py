@@ -1,4 +1,4 @@
-import util
+from pylib import util
 import sys
 
 if len(sys.argv) > 1:
