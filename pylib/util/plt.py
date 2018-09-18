@@ -5,13 +5,13 @@ Created on 2016-9-27
 @author: dengdan
 '''
 import matplotlib as mpl
-# mpl.use('TkAgg')
-import matplotlib.pyplot as plt
 import numpy as np
 
-from pylib import util
-
+# mpl.use('TkAgg')
 mpl.use('Agg')
+import matplotlib.pyplot as plt
+
+from pylib import util
 
 
 def hist(x, title=None, normed=False, show=True, save=False,

@@ -40,7 +40,7 @@ init_logger = log.init_logger
 
 
 def get_temp_path(name=''):
-    _count = get_count();
+    _count = get_count()
     path = '~/temp/no-use/images/%s_%d_%s.png' % (log.get_date_str(), _count, name)
     return path
 
