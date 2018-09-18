@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ml_pylib',
-    version='0.0.2',
+    version='0.0.3',
     packages=['pylib', 'pylib.util', 'pylib.matlab', 'pylib.tmux'],
     url='https://github.com/DewMaple/pylib',
     description='A lot of handy python methods encapsulated on many commonly used '

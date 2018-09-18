@@ -45,7 +45,7 @@ def get_available_gpus(num_gpus=None):
         local_device_protos = _device_lib.list_local_devices()
         return [x.name for x in local_device_protos if x.device_type == 'GPU']
     else:
-        return ['/gpu:%d' % (idx) for idx in xrange(num_gpus)]
+        return ['/gpu:%d' % (idx) for idx in range(num_gpus)]
 
 
 def get_latest_ckpt(path):
